@@ -1,0 +1,34 @@
+:root {
+  --pallete-1: #000a19;
+  --pallete-2: #fe5565;
+  --pallete-3: #5adddc;
+  --pallete-4: #fafed0;
+  --pallete-5: #9e9fde;
+}
+
+.txt-glow {
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}  
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px var(--pallete-4), 
+    0 0 10px var(--pallete-4),
+    0 0 15px var(--pallete-4), 
+    0 0 20px var(--pallete-4), 
+    0 0 25px var(--pallete-4), 
+    0 0 30px var(--pallete-4), 
+    0 0 35px var(--pallete-4);
+  }
+  to {
+    text-shadow: 0 0 10px var(--pallete-3),
+    0 0 15px var(--pallete-3), 
+    0 0 20px var(--pallete-3), 
+    0 0 25px var(--pallete-3), 
+    0 0 30px var(--pallete-3), 
+    0 0 35px var(--pallete-3), 
+    0 0 40px var(--pallete-3);
+  }
+}
