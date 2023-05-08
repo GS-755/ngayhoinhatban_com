@@ -237,24 +237,144 @@
   <!--Hikari end-->
 
   <!--Contest start-->
-  <section class="section">
+  <section class="section" style="padding-top: 25px; padding-bottom: 50px;" id="contest">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <img src="https://images6.alphacoders.com/715/thumb-1920-715677.png">
-        </div>
+      <!-- Desktop Modal Start-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+          <div class="modal-content acrylic acrylic-frame">
+            <div class="modal-title fs-5 text-center mt-2 mb-2" id="exampleModalLabel">
+              <!--Desktop Controller Start-->
+              <div class="col">
+                <h4>NGƯNG QUANG - HOẠ NGUYỆT</h4>
+                <div class="row text-center">
+                  <div class="col-md-6">
+                    <button class="btn" onclick="showHideDesc('thele')">
+                      <h5>THỂ LỆ</h5>
+                    </button>   
+                  </div>
+                  <div class="col-md-6">
+                    <button class="btn" onclick="showHideDesc('noiquy')">
+                      <h5>NỘI QUY</h5>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!--Desktop Controller End-->
+            </div>
+            <!--Modal Body Start-->
+            <div class="modal-body" id="show-hide">
+                <div id="carouselExampleCaptions" class="carousel slide" id="thele" style="display: none;">
+                  <div class="carousel-indicators position-relative">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <h5 class="text-center text-uppercase">1. Đối tượng tham gia</h5>
+                      <div class="pt-5 pb-5 container">
+                        <p>
+                          Các cá nhân/ nhóm có niềm đam mê, yêu thích 
+                          với cosplay và muốn thể hiện tài năng 
+                          hoặc chia sẻ hình ảnh của mình đến cộng đồng. 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <h5 class="text-center text-uppercase">2. Hình thức dự thi</h5>
+                      <div class="pt-5 pb-5 container">
+                          <ul>
+                            <li>
+                              Đối với cuộc thi ảnh - Ngưng Quang: Các cá nhân/ nhóm gửi hình ảnh của mình trong trang phục Nhật Bản hoặc cosplay cùng đôi lời chia sẻ của bản thân;
+                            </li>
+                            <li>
+                              Đối với cuộc thi tài năng - Họa Nguyệt: Các cá nhân/ nhóm gửi video thể hiện tài năng của mình (bao gồm ca hát, nhảy múa,...) trong trang phục Nhật Bản hoặc cosplay với thời lượng theo quy định của BTC lời chia sẻ của bản thân;
+                            </li>
+                            <li>Bài thi cá nhân: video dự thi có thời lượng tối thiểu 30 giây và tối đa là 5 phút.</li>
+                            <li>
+                              Bài thi nhóm: video dự thi có thời lượng tối thiểu là 1 phút và không quá 5 phút.
+                            </li>
+                            <li>Ảnh/Video sẽ được đăng tải lên fanpage NGÀY HỘI NHẬT BẢN để mọi người bình chọn.</li>
+                          </ul>
+                          <div>
+                            <h6>* Bài thi hợp lệ: </h6>
+                            <ol>
+                              <li>Ảnh/Video phải rõ nét và thấy đủ mặt của các thành viên có trong ảnh, không được nhòe;</li>
+                              <li>
+                                Ảnh/Video không được chứa những nội dung nhạy cảm, hở hang quá mức, hình ảnh sử dụng chất kích thích, uống bia rượu, hút thuốc…;
+                              </li>
+                              <li>Ảnh/Video dự thi phải thể hiện sự đầu tư trong việc chụp và thể hiện sự sáng tạo;</li>
+                              <li>Ảnh/Video dự thi không được có logo của bên thứ 3 (camera 360, VivaVideo, Photo Wonder…).</li>
+                            </ol>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="pt-5 pb-5 container">
+                        <p>Test thể lệ 3</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="pt-5 pb-5 container">
+                        <p>Test thể lệ 4</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="pt-5 pb-5 container">
+                        <p>Test thể lệ 5</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="pt-5 pb-5 container">
+                        <p>Test thể lệ 6</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="pt-5 pb-5 container">
+                        <p>Test thể lệ 7</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div id="noiquy" style="display: none;">
+                  <p>Test nội quy</p>
+                </div>
+              </div>
+            </div>
+            <!--Modal Body End-->
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
+          </div>
+        </div> 
+      </div>
       </div>
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4 position-absolute">
-          
+        <div class="col-sm-12">
+          <a href="#contest" class="d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="assets/img/contest/contest.png" class="d-block w-100">
+          </a>
+          <a href="#contest" class="d-block d-md-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="assets/img/contest/contest-portrait.png" class="d-block w-100">
+          </a>
         </div>
-        <div class="col-md-4"></div>
       </div>
     </div>
   </section>
   <!--Contest end-->
-
   <!--Partner start-->
   <section class="section" style="padding: 0;" id="partner">
     <div class="container-fluid">
