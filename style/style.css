@@ -46,7 +46,6 @@ body { overflow-x: hidden; }
   --pallete-5: #9e9fde;
 }
 /* Debug Section */
-/*
 .section { border: 1px solid #d64e12; }
 .footer { border: 1px solid #d64e12; }
 .container-fluid { border: 1px solid #f9a52c; }
@@ -54,7 +53,6 @@ body { overflow-x: hidden; }
 .row { border: 1px solid #8bd346; }
 .col { border: 1px solid #60dbe8; }
 [class*=".col-"] { border: 1px solid #16a4d8; }
-*/
 /* 1.Navbar */
 nav a:hover{ 
   color: var(--pallete-4) !important; 
@@ -116,7 +114,15 @@ nav a:hover{
 /* 7.Guests */
 
 /* 8.Contest */
-
+.acrylic {
+  padding: 4em 6em;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
+  margin: 7px;
+}
+.acrylic-frame { border-radius: 16px; border: 1.5px solid transparent; }
 /* 9.Partner */
 .img-logo-ftu2 {
   width: 300px;
