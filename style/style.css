@@ -116,6 +116,12 @@ nav a:hover{
 /* 7.Guests */
 
 /* 8.Contest */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px; 
+  color: var(--pallete-2);
+  border-radius: 100%;
+}
 .modal-content {
   position: relative;
   background: var(--pallete-acrylic) !important;
