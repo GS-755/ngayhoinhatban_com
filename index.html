@@ -241,20 +241,24 @@
     <div class="container-fluid">
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
           <div class="modal-content">
             <!--Modal Controller Start-->
             <div class="modal-header container-fluid">
-              <div class="col px-3">
-                <div class="row text-center">
-                  <h4 id="exampleModal">"NGƯNG QUANG - HOẠ NGUYỆT"</h4>
+              <div class="col pt-3 pb-3">
+                <div class="row text-center pt-3">
+                  <h3 id="exampleModal">"NGƯNG QUANG - HOẠ NGUYỆT"</h3>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center pt-3">
                   <div class="col-md-6">
-                    <button class="btn" onclick="showHideDesc('thele')">THỂ LỆ</button>
+                    <button class="btn text-white" onclick="showHideDesc('thele')">
+                      <h5>THỂ LỆ</h5>
+                    </button>
                   </div>
                   <div class="col-md-6">
-                    <button class="btn" onclick="showHideDesc('noiquy')">NỘI QUY</button>
+                    <button class="btn text-white" onclick="showHideDesc('noiquy')">
+                      <h5>NỘI QUY</h5>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -266,7 +270,192 @@
               <div id="show-hide">
                 <!--TheLe Start-->
                 <div id="thele" style="display: none;">
-                  <p>Test thể lệ</p>
+                  <h4 class="text-center">THỂ LỆ</h4>
+                  <div class="container pt-3 pb-3">
+                    <div id="carouselTheLe" class="carousel slide">
+                      <div class="carousel-indicators position-relative">
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselTheLe" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" style="padding: 0; margin: 0;">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">1. Đối tượng tham gia</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <p>
+                                  Các cá nhân/ nhóm có niềm đam mê, yêu thích với cosplay và muốn thể hiện tài năng hoặc chia sẻ 
+                                  hình ảnh của mình đến cộng đồng. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> 
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">2. Hình thức dự thi</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <ul style="line-height: 1.5;">
+                                  <li class="pt-2 pb-3">
+                                    Đối với cuộc thi ảnh - Ngưng Quang: Các cá nhân/ nhóm gửi hình ảnh của mình 
+                                    trong trang phục Nhật Bản hoặc cosplay cùng đôi lời chia sẻ của bản thân;
+                                  </li>
+                                  <li class="pt-2 pb-3">
+                                    Đối với cuộc thi tài năng - Họa Nguyệt: Các cá nhân/ nhóm gửi video thể hiện 
+                                    tài năng của mình (bao gồm ca hát, nhảy múa,...) trong trang phục Nhật Bản 
+                                    hoặc cosplay với thời lượng theo quy định của BTC lời chia sẻ của bản thân;
+                                  </li>
+                                  <ul>
+                                    <li>Bài thi cá nhân: video dự thi có thời lượng tối thiểu 30 giây và tối đa là 5 phút.</li>
+                                    <li>Bài thi nhóm: video dự thi có thời lượng tối thiểu là 1 phút và không quá 5 phút.</li>
+                                  </ul>
+                                  <li>Ảnh/Video sẽ được đăng tải lên fanpage NGÀY HỘI NHẬT BẢN để mọi người bình chọn.</li>
+                                  <li class="pt-2 pb-3">Bài thi hợp lệ: </li>
+                                  <ul>
+                                    <li>Ảnh/Video phải rõ nét và thấy đủ mặt của các thành viên có trong ảnh, không được nhòe;</li>
+                                    <li>
+                                      Ảnh/Video không được chứa những nội dung nhạy cảm, hở hang quá mức, hình ảnh sử dụng 
+                                      chất kích thích, uống bia rượu, hút thuốc…;
+                                    </li>
+                                    <li>Ảnh/Video dự thi phải thể hiện sự đầu tư trong việc chụp và thể hiện sự sáng tạo;</li>
+                                    <li>Ảnh/Video dự thi không được có logo của bên thứ 3 (camera 360, VivaVideo, Photo Wonder…).</li>
+                                  </ul>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">3. Cách thức tham gia</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <ul class="line-height: 1.5;">
+                                  <li>Bước 1: Truy cập trực tiếp cuộc thi tại fanpage NGÀY HỘI NHẬT BẢN và like fanpage;
+                                  <li>Bước 2: Đọc kỹ bài đăng “Thể lệ chương trình” trước khi tham gia;</li>
+                                  <li>
+                                    Bước 3: Gửi ảnh/video dự thi qua form: 
+                                    <button class="btn btn-outline-secondary text-white mx-3" onclick="contestFjc()">https://forms.gle/AqiiTTRLZrbSYjzR9</button>
+                                  </li>
+                                  <li>
+                                    Bước 4: Like, Share bài post dự thi của bản thân (sẽ được BTC đăng vào thời gian bình chọn) 
+                                    và tag 03 người bạn vào post.
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">4. Thời gian dự thi</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <ul style="line-height: 1.5;">
+                                  <li class="pt-2 pb-3">
+                                    Giai đoạn 1: Nhận bài dự thi và mở cổng bình chọn: 
+                                    từ ngày 06/05 đến hết ngày 01/06/2023
+                                  </li>
+                                  <li class="pt-2 pb-3">
+                                    Giai đoạn 2: Công bố và trao thưởng: từ ngày 02/06 đến ngày 04/06/2023 
+                                  </li>
+                                  <ul style="line-height: 1.5;">
+                                    <li>
+                                      Đối với cuộc thi ảnh - Ngưng Quang: Các cá nhân có số điểm cao nhất 
+                                      sẽ được BTC công bố trên fanpage và trao quà tại lễ hội
+                                    </li>
+                                    <li>
+                                      Đối với cuộc thi tài năng - Họa Nguyệt: BTC sẽ công bố các tiết mục 
+                                      với số điểm cao nhất tiếp tục tiến vào vòng chung kết: so tài trực tiếp tại lễ hội.
+                                    </li>
+                                  </ul>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">5. Phương thức chấm giải</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <p>Bài dự thi có điểm cao nhất các hạng mục sẽ được trao thưởng tương ứng.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">6. Cách thức bình chọn</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <p>
+                                  Các bạn hãy share bài ở chế độ công khai kèm với hashtag 
+                                  #NHNB2023 #FJC và thả biểu tượng cảm xúc cho thí sinh 
+                                  mà các bạn yêu thích nhé.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">7. Cách thức tính điểm</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <ul style="line-height: 1.5;">
+                                  <li>
+                                    Với mỗi một tài khoản đã like Fanpage NGÀY HỘI NHẬT BẢN và thực hiện 
+                                    tương tác trên mỗi bài thi sẽ được tính điểm như sau:
+                                  </li>
+                                  <ul>
+                                    <li>👍: 1 điểm</li>
+                                    <li>❤: 3 điểm</li>
+                                    <li>Các loại biểu tượng khác: 2 điểm</li>
+                                    <li>Comment có tag đủ 3 người bạn: 3 điểm</li>
+                                    <li>Share bài kèm hashtag #NHNB2023 #FJC: 5 điểm</li>
+                                  </ul>
+                                  <li style="font-style: italic;">
+                                    Lưu ý: mỗi tài khoản chỉ được tính điểm 01 lần cho lượt 
+                                    share và comment đầu tiên.
+                                  </li>
+                                  <li>
+                                    Điểm tổng kết sẽ được tính như sau: 60% số điểm đến từ các lượt tương tác, 
+                                    bình chọn và 40% số điểm đến từ BTC chương trình.
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <h5 class="text-center pt-1 pb-3 text-uppercase">8. Cơ cấu giải thưởng</h5>
+                          <div class="modal-body container">
+                            <div class="col">
+                              <div class="row">
+                                <p>Cúp lưu niệm và phần quà đặc biệt đến từ ban tổ chức chương trình. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTheLe" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselTheLe" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
                 <!--TheLe End-->
                 <!--NoiQuy Start-->
@@ -365,7 +554,7 @@
               </div>
             </div>
             <!--Modal Content End-->
-            <div class="modal-footer">
+            <div class="modal-footer text-center">
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Đóng</button>
             </div>
           </div>

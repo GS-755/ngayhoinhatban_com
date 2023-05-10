@@ -16,14 +16,6 @@ body { overflow-x: hidden; }
   padding-bottom: 100px;
   position: relative;
 }
-.firefly {
-  width: 3px;
-  height: 3px;
-  position: absolute;
-  background-color: #ecc45e;
-  box-shadow: 0px 0px 17px 2px #f5deb3;
-  border-radius: 50%;
-}
 
 /* Custom scrollbar for desktop */
 ::-webkit-scrollbar { width: 10px; }
@@ -48,6 +40,7 @@ body { overflow-x: hidden; }
   --pallete-shadow-modal: rgba(250, 254, 208, 0.15);
 }
 /* Debug Section */
+/*
 .section { border: 1px solid #d64e12; }
 .footer { border: 1px solid #d64e12; }
 .container-fluid { border: 1px solid #f9a52c; }
@@ -55,6 +48,7 @@ body { overflow-x: hidden; }
 .row { border: 1px solid #8bd346; }
 .col { border: 1px solid #60dbe8; }
 [class*=".col-"] { border: 1px solid #16a4d8; }
+*/
 /* 1.Navbar */
 nav a:hover{ 
   color: var(--pallete-4) !important; 

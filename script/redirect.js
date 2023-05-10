@@ -11,3 +11,6 @@ const buyFjc = () => {
 const mapFjc = () => {
   window.open('https://goo.gl/maps/U9UtWcR16txPu6Xr8', '_blank');
 }
+const contestFjc = () => {
+  window.open('https://forms.gle/AqiiTTRLZrbSYjzR9', '_blank');
+}
