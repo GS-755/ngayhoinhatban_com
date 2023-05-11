@@ -16,15 +16,7 @@ body { overflow-x: hidden; }
   padding-bottom: 100px;
   position: relative;
 }
-.firefly {
-  width: 3px;
-  height: 3px;
-  position: absolute;
-  background-color: #ecc45e;
-  box-shadow: 0px 0px 17px 2px #f5deb3;
-  border-radius: 50%;
-}
-
+.ff-merriweather { font-family: 'Merriweather', serif; }
 /* Custom scrollbar for desktop */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track {
@@ -44,8 +36,11 @@ body { overflow-x: hidden; }
   --pallete-3: #5adddc;
   --pallete-4: #fafed0;
   --pallete-5: #9e9fde;
+  --pallete-acrylic: rgba(0, 10, 25, 0.3);
+  --pallete-shadow-modal: rgba(250, 254, 208, 0.15);
 }
 /* Debug Section */
+/*
 .section { border: 1px solid #d64e12; }
 .footer { border: 1px solid #d64e12; }
 .container-fluid { border: 1px solid #f9a52c; }
@@ -53,6 +48,7 @@ body { overflow-x: hidden; }
 .row { border: 1px solid #8bd346; }
 .col { border: 1px solid #60dbe8; }
 [class*=".col-"] { border: 1px solid #16a4d8; }
+*/
 /* 1.Navbar */
 nav a:hover{ 
   color: var(--pallete-4) !important; 
@@ -84,7 +80,8 @@ nav a:hover{
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
   color: #FFF;
-  font-family: Phantomsans, sans-serif;
+  font-family: Merriweather, sans-serif;
+  font-weight: bold;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
@@ -114,15 +111,24 @@ nav a:hover{
 /* 7.Guests */
 
 /* 8.Contest */
-.acrylic {
-  padding: 4em 6em;
-  position: relative;
-  background: rgba(0, 0, 0, 0.3);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(6px);
-  margin: 7px;
+.btn-close { 
+  background-color: rgba(216, 216, 216, 0.35) !important;
+  opacity: 1;
 }
-.acrylic-frame { border-radius: 16px; border: 1.5px solid transparent; }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px; 
+  color: var(--pallete-2);
+  border-radius: 100%;
+}
+.modal-content {
+  position: relative;
+  background: var(--pallete-acrylic) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 16px; border: 1.5px solid transparent !important;
+  box-shadow: 0px 0px 10px 10px var(--pallete-shadow-modal);
+}
 /* 9.Partner */
 .img-logo-ftu2 {
   width: 300px;
