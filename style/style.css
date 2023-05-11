@@ -16,7 +16,7 @@ body { overflow-x: hidden; }
   padding-bottom: 100px;
   position: relative;
 }
-
+.ff-merriweather { font-family: 'Merriweather', serif; }
 /* Custom scrollbar for desktop */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track {
@@ -80,7 +80,8 @@ nav a:hover{
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
   color: #FFF;
-  font-family: Phantomsans, sans-serif;
+  font-family: Merriweather, sans-serif;
+  font-weight: bold;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
@@ -110,6 +111,10 @@ nav a:hover{
 /* 7.Guests */
 
 /* 8.Contest */
+.btn-close { 
+  background-color: rgba(216, 216, 216, 0.35) !important;
+  opacity: 1;
+}
 .carousel-indicators li {
   width: 10px;
   height: 10px; 

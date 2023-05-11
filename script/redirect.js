@@ -14,3 +14,6 @@ const mapFjc = () => {
 const contestFjc = () => {
   window.open('https://forms.gle/AqiiTTRLZrbSYjzR9', '_blank');
 }
+const registerContestFjc = () => {
+  window.open('https://forms.gle/AqiiTTRLZrbSYjzR9', '_blank');
+}
