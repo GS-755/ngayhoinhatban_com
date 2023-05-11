@@ -249,18 +249,36 @@
                 <div class="row text-center pt-3">
                   <h3 id="exampleModal" class="txt-glow ff-merriweather fw-light">"NGƯNG QUANG - HOẠ NGUYỆT"</h3>
                 </div>
-                <div class="row pt-2 text-center">
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-warning text-white" onclick="showHideDesc('thele')">
-                      <h5 class="ff-merriweather pt-2">THỂ LỆ</h5>
-                    </button>
-                  </div>
-                  <div class="col-md-6">
-                    <button class="btn btn-outline-warning text-white" onclick="showHideDesc('noiquy')">
-                      <h5 class="ff-merriweather pt-2">NỘI QUY</h5>
-                    </button>
+                <!--Desktop Modal Controller Start-->
+                <div class="d-none d-md-block">
+                  <div class="row pt-2 text-center">
+                    <div class="col-md-6">
+                      <button class="btn btn-outline-warning text-white" onclick="showHideDesc('thele')">
+                        <h5 class="ff-merriweather pt-2">THỂ LỆ</h5>
+                      </button>
+                    </div>
+                    <div class="col-md-6">
+                      <button class="btn btn-outline-warning text-white" onclick="showHideDesc('noiquy')">
+                        <h5 class="ff-merriweather pt-2">NỘI QUY</h5>
+                      </button>
+                    </div>
                   </div>
                 </div>
+                <!--Desktop Modal Controller End-->
+                <!--Mobile Modal Controller Start-->
+                <div class="d-block d-md-none">
+                  <div class="col text-center mt-3">
+                    <div class="d-inline">
+                      <button class="btn btn-outline-warning text-white" onclick="showHideDesc('thele')">
+                        <h5 class="ff-merriweather pt-2">THỂ LỆ</h5>
+                      </button>
+                      <button class="btn btn-outline-warning text-white" onclick="showHideDesc('noiquy')">
+                        <h5 class="ff-merriweather pt-2">NỘI QUY</h5>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--Mobile Modal Controller End-->
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
