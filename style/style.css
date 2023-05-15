@@ -36,10 +36,10 @@ body { overflow-x: hidden; }
   --pallete-4: #fafed0;
   --pallete-5: #9e9fde;
   --pallete-acrylic: rgba(0, 10, 25, 0.3);
-  --pallete-shadow-modal: rgba(250, 254, 208, 0.15);
+  --pallete-shadow-modal: rgba(250, 254, 208, 0.2);
 }
 /* Debug Section */
-
+/*
 .section { border: 1px solid #d64e12; }
 .footer { border: 1px solid #d64e12; }
 .container-fluid { border: 1px solid #f9a52c; }
@@ -47,7 +47,7 @@ body { overflow-x: hidden; }
 .row { border: 1px solid #8bd346; }
 .col { border: 1px solid #60dbe8; }
 [class*=".col-"] { border: 1px solid #16a4d8; }
-
+*/
 /* 1.Navbar */
 nav a:hover{ 
   color: var(--pallete-4) !important; 
@@ -106,6 +106,9 @@ nav a:hover{
 }
 .img-cover { object-fit: cover; }
 /* 6.Ambassadors */
+.card { border: 3px solid var(--pallete-4) !important; }
+.ambassador-hover { position: relative; }
+.ambassador-hover:hover { box-shadow: 0px 0px 10px 10px var(--pallete-shadow-modal); }
 .card-body { background-color: var(--pallete-acrylic) !important; }
 .img-ambassador-modal {
   border-radius: 8px;
@@ -131,12 +134,7 @@ nav a:hover{
   object-fit: cover;
   height: 350px;
 }
-.card-body-acrylic {
-  background: var(--pallete-acrylic) !important;
-  -webkit-backdrop-filter: blur(3px) !important;
-  backdrop-filter: blur(3px) !important;
-  box-shadow: 0px 0px 10px 10px var(--pallete-shadow-modal);
-}
+.card-body-acrylic { background: var(--pallete-1) !important; }
 /* 7.Guests */
 
 /* 8.Contest */
