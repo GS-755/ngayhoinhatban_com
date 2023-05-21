@@ -107,8 +107,6 @@ nav a:hover{
 .img-cover { object-fit: cover; }
 /* 6.Ambassadors */
 .card { border: 3px solid var(--pallete-4) !important; }
-.ambassador-hover { position: relative; }
-.ambassador-hover:hover { box-shadow: 0px 0px 10px 10px var(--pallete-shadow-modal); }
 .card-body { background-color: var(--pallete-acrylic) !important; }
 .img-ambassador-modal {
   border-radius: 8px;
@@ -119,10 +117,6 @@ nav a:hover{
   -webkit-backdrop-filter: blur(3px) !important;
   backdrop-filter: blur(3px) !important;
   box-shadow: 0px 0px 10px 10px var(--pallete-shadow-modal);
-}
-.card-img-top {
-  height: 700px;
-  object-fit: cover;
 }
 .modal-ambassador-lg { width: 75% !important; }
 .modal-img-top {
