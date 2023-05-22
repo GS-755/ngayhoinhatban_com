@@ -1,6 +1,7 @@
 /* 0.Common CSS */
 
 /* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 /* Prevent x-axis */
@@ -16,6 +17,7 @@ body { overflow-x: hidden; }
   position: relative;
 }
 .ff-merriweather { font-family: 'Merriweather', serif; }
+.ff-quicksand { font-family: 'Quicksand', sans-serif; }
 /* Custom scrollbar for desktop */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track {
